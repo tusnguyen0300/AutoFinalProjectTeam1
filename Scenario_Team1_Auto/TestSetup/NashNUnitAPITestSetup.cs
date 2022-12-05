@@ -22,19 +22,18 @@ namespace Scenario_Team1_Auto.TestSetup
             loginPage = new LoginPage(_driver);
 
             user = nashAuthorizationService.Login(Constant.ADMIN_USERNAME, Constant.ADMIN_PASSWORD);
-
             newUserInfo = createUserService.GetNewUserInfo(user.accessToken);
 
             string userName = newUserInfo.username;
             string password = CreateUserService.ConversePassword(newUserInfo.birthDate);
             Console.WriteLine(userName);
             Console.WriteLine (password);
+
             driverBaseAction.GoToURL(Constant.BASE_URL);
 
             loginPage.Login(userName,userName +"@" + password);
             loginPage.ChangePasswordForTheFirstTime(Constant.NEW_PASSWORD1);
         }
-
         [TearDown]
         public void TearDown()
         {
