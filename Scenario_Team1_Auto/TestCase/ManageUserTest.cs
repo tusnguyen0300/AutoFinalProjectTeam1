@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Scenario_Team1_Auto.TestCase
 {
     [TestFixture]
-    public class ManageUserTest : ProjectNUnitTestSetup
+    public class ManageUserTest : NashNUnitAPITestSetup
     {
         [Test]
         public void GetManageUserPage() // admin view ManageUser Page , Users List and detail of User

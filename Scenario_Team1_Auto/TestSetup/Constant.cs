@@ -10,6 +10,7 @@
 
         public static string ADMIN_USERNAME = "vangdv";
         public static string ADMIN_PASSWORD = "vangdv@01011990";
-        public static string NEW_PASSWORD = "12345678";
+        public static string NEW_PASSWORD1 = "12345678";
+        public static string NEW_PASSWORD2 = "87654321";
     }
 }
