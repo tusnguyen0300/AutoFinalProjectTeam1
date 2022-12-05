@@ -21,10 +21,8 @@ namespace Scenario_Team1_Auto.PageObject
         private readonly String btnManageAassignments = "//a[@href='/manage-assignments']";
         
         private readonly String btnConfigUser = "//div[@role='menuitem']";
-        private readonly String btnChangePassword = "//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]";         // "//div[contains(@style, 'position')]//li[1]"; //for admin
-        private readonly String btnLogout = "//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][2]";                 //   "//div[contains(@style, 'position')]//li[2]"; // for admin
-
-        //ul[@id='rc-menu-uuid-16799-3-username-popup']/li[@role='menuitem']
+        private readonly String btnChangePassword = "//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]";         
+        private readonly String btnLogout = "//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][2]";   
 
         private readonly String btnConfirmLogout = "//button[@class='ant-btn ant-btn-primary ant-btn-dangerous']";
 
@@ -42,14 +40,11 @@ namespace Scenario_Team1_Auto.PageObject
         public void VerifyStaffAccessAuthority()
         {
             IsElementDisplay(btnHomePage);
-            //IsElementNotDisplay(btnManageUser);
-            //IsElementNotDisplay(btnManageAssets);
-            //IsElementNotDisplay(btnManageAassignments);
         }
 
-        public void ChangePassword(string oldPassword,string newPassword)
+        public void ChangePassword(string user,string oldPassword,string newPassword)
         {
-            Clicks(btnConfigUser);
+            Clicks("//span[contains(text(),'"+user+"')]");
             Clicks(btnChangePassword);
 
             IsElementDisable(btnSave);

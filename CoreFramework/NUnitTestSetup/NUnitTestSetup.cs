@@ -35,7 +35,7 @@ namespace CoreFramework.NUnitTestSetup
         [TearDown]
         public void TearDown()
         {
-            _driver.Quit();
+           // _driver.Quit();
             TestStatus testStatus = TestContext.CurrentContext.Result.Outcome.Status;
             if (testStatus.Equals(TestStatus.Passed))
             {

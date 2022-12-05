@@ -31,9 +31,6 @@ namespace Scenario_Team1_Auto.PageObject
             IsElementDisplay(pageTitle);
         }
 
-
-
-
         public IList<IWebElement> GetAssignmentList()
         {
             IList<IWebElement> randomAssignment = FindElementsByXpath(listAssignment);

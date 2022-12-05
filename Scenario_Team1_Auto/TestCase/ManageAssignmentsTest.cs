@@ -11,7 +11,7 @@ namespace Scenario_Team1_Auto.TestCase
 {
 
     [TestFixture]
-    public class ManageAassignments : ProjectNUnitTestSetup
+    public class ManageAassignments : NashNUnitAPITestSetup
     {
         [Test]
         public void ViewAllAassignment() // admin view Aassignments Page, Assignments List and detail of Aassignments

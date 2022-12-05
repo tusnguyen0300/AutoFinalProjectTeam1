@@ -150,7 +150,7 @@ namespace CoreFramework.DriverCore
             }
 
         }
-        public void SendKeys_(IWebElement e, string key)
+        public void SendKey(IWebElement e, string key)
         {
             try
             {
