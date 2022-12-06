@@ -1,0 +1,77 @@
+{"username":"vangdv","password":"vangdv@01011990"}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2YW5nZHYiLCJpYXQiOjE2NzAyNTk1ODMsImV4cCI6MTY3MDM0NTk4M30.sCLm8ZiRbEMPmOgY0_pugSEmMitgBVWNAcueyYs-vGg
+{"birthDate":"1998-02-24","createdAt":"2022-12-05","firstName":"sang","gender":"MALE","lastName":"le","role":"ADMIN"}
+sangl26
+24021998
+Go to URL: http://13.212.23.86
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+element is disable
+Find element//input[@id='login_username']passed
+Find element//input[@id='login_username']passed
+SendKey into element //input[@id='login_username']passed
+senkey into element//input[@id='login_username']passed
+Find element//input[@id='login_password']passed
+Find element//input[@id='login_password']passed
+SendKey into element //input[@id='login_password']passed
+senkey into element//input[@id='login_password']passed
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+element is enable
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+click into element//button[@type='submit']passed
+click into element//button[@type='submit']passed
+Find element//*[@type='submit']passed
+Find element//*[@type='submit']passed
+Find element//*[@id='change-password-first-time_newPassword']passed
+Find element//*[@id='change-password-first-time_newPassword']passed
+SendKey into element //*[@id='change-password-first-time_newPassword']passed
+senkey into element//*[@id='change-password-first-time_newPassword']passed
+Find element//*[@type='submit']passed
+Find element//*[@type='submit']passed
+element is enable
+Find element//*[@type='submit']passed
+Find element//*[@type='submit']passed
+click into element//*[@type='submit']passed
+click into element//*[@type='submit']passed
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+Find element//input[@id='login_username']passed
+Find element//input[@id='login_username']passed
+SendKey into element //input[@id='login_username']passed
+senkey into element//input[@id='login_username']passed
+Find element//input[@id='login_password']passed
+Find element//input[@id='login_password']passed
+SendKey into element //input[@id='login_password']passed
+senkey into element//input[@id='login_password']passed
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+element is enable
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+click into element//button[@type='submit']passed
+click into element//button[@type='submit']passed
+Find element//span[contains(text(),'sangl26')]passed
+Find element//span[contains(text(),'sangl26')]passed
+click into element//span[contains(text(),'sangl26')]passed
+click into element//span[contains(text(),'sangl26')]passed
+Find element//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]passed
+Find element//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]passed
+click into element//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]passed
+click into element//ul[@class='ant-menu ant-menu-sub ant-menu-vertical']/li[@role='menuitem'][1]passed
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+element is disable
+Find element//input[@placeholder='Old Password']passed
+Find element//input[@placeholder='Old Password']passed
+SendKey into element //input[@placeholder='Old Password']passed
+senkey into element//input[@placeholder='Old Password']passed
+Find element//input[@placeholder='New Password']passed
+Find element//input[@placeholder='New Password']passed
+SendKey into element //input[@placeholder='New Password']passed
+senkey into element//input[@placeholder='New Password']passed
+Find element//button[@type='submit']passed
+Find element//button[@type='submit']passed
+click into element//button[@type='submit']passed
+click into element//button[@type='submit']passed
