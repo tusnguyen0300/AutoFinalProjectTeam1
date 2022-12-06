@@ -33,10 +33,14 @@ namespace Scenario_Team1_Auto.TestSetup
 
             loginPage.Login(userName,userName +"@" + password);
             loginPage.ChangePasswordForTheFirstTime(Constant.NEW_PASSWORD1);
+
         }
+
         [TearDown]
+
         public void TearDown()
         {
+
         }
     }
 }
