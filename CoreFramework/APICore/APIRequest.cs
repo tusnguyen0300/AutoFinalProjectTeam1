@@ -101,6 +101,12 @@ namespace CoreFramework.APICore
             APIResponse response = SendRequest();
             return response;
         }
+        public APIResponse Patch()
+        {
+            request.Method = "PATCH";
+            APIResponse response = SendRequest();
+            return response;
+        }
 
         public APIResponse Post()
         {

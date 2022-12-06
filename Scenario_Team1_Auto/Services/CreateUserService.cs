@@ -51,11 +51,12 @@ namespace Scenario_Team1_Auto.Services
 
             return newUserInfo;
         }
-        public static string ConversePassword(string password)
+        public static string ConversePassword(string userName,string password)
         {
             string trimPassword = password.Replace("-", "");
-            var parsedDate = DateTime.ParseExact(trimPassword, "yyyyMMdd", System.Globalization.CultureInfo.InvariantCulture);
-            var newPassword = parsedDate.ToString("ddMMyyyy", System.Globalization.CultureInfo.InvariantCulture);
+            var parsedPassword = DateTime.ParseExact(trimPassword, "yyyyMMdd", System.Globalization.CultureInfo.InvariantCulture);
+            var reversePassword = parsedPassword.ToString("ddMMyyyy", System.Globalization.CultureInfo.InvariantCulture);
+            var newPassword = userName + "@" + reversePassword;
             return newPassword;
         }
     }
